@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct Home: View {
+    
+    @State private var expandSheet = false
+    @Namespace private var animation
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            header
+        }
+    }
+    
+    var header: some View {
+        HStack {
+            Text("Good morning moods✨")
+        }
+        .frame(width: .infinity, height: 60)
+        .padding(.horizontal)
     }
 }
 
 #Preview {
     Home()
+        .preferredColorScheme(.dark)
 }
