@@ -12,6 +12,7 @@
 		CED763C22BE6B28F00F6B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED763C12BE6B28F00F6B654 /* Assets.xcassets */; };
 		CED763C52BE6B28F00F6B654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED763C42BE6B28F00F6B654 /* Preview Assets.xcassets */; };
 		CED763CE2BE6B6CF00F6B654 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED763CD2BE6B6CF00F6B654 /* Home.swift */; };
+		CED763D02BE6B97C00F6B654 /* MusicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED763CF2BE6B97C00F6B654 /* MusicInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CED763C12BE6B28F00F6B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED763C42BE6B28F00F6B654 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED763CD2BE6B6CF00F6B654 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CED763CF2BE6B97C00F6B654 /* MusicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				CED763BD2BE6B28E00F6B654 /* MusicAppApp.swift */,
 				CED763BF2BE6B28E00F6B654 /* ContentView.swift */,
+				CED763CF2BE6B97C00F6B654 /* MusicInfo.swift */,
 				CED763CD2BE6B6CF00F6B654 /* Home.swift */,
 				CED763C12BE6B28F00F6B654 /* Assets.xcassets */,
 				CED763C32BE6B28F00F6B654 /* Preview Content */,
@@ -143,6 +146,7 @@
 				CED763C02BE6B28E00F6B654 /* ContentView.swift in Sources */,
 				CED763CE2BE6B6CF00F6B654 /* Home.swift in Sources */,
 				CED763BE2BE6B28E00F6B654 /* MusicAppApp.swift in Sources */,
+				CED763D02BE6B97C00F6B654 /* MusicInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
