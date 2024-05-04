@@ -36,12 +36,15 @@ struct ContentView: View {
         .tint(.white)
         .safeAreaInset(edge: .bottom) {
             // Custom Bottom Sheet
+            CustomBottomSheet()
         }.overlay {
             if expandSheet {
-                
+                MusicView(expandSheet: $expandSheet, animation: animation)
             }
         }
     }
+    
+    
     @ViewBuilder
     func CustomBottomSheet() -> some View {
         ZStack {
@@ -52,21 +55,15 @@ struct ContentView: View {
                 Rectangle()
                     .fill(.ultraThickMaterial)
                     .overlay {
-                        // Music Info
+                        MusicInfo(expandSheet: $expandSheet, animation: animation)
                     }.matchedGeometryEffect(id: "BACKGROUNDVIEW", in: animation)
             }
         }
         .frame(height: 80)
-        .overlay(alignment: .bottom) {
-            Rectangle()
-                .fill(.gray.opacity(0.3))
-                .frame(height: 1)
-                .offset(y: -5)
+        .offset(y: -49)
         }
-        .offset(y: -59)
+        
     }
-    
-}
 
 #Preview {
     ContentView()
