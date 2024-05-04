@@ -13,10 +13,9 @@ struct Home: View {
     @Namespace private var animation
     
     var body: some View {
-        TabView {
-            header
-        }
+        header
     }
+    
     
     var header: some View {
         HStack {
@@ -28,6 +27,6 @@ struct Home: View {
 }
 
 #Preview {
-    Home()
+    ContentView()
         .preferredColorScheme(.dark)
 }
